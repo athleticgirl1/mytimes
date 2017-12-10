@@ -1,0 +1,23 @@
+.header {
+  display: inline-flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  flex-basis: 4260px;
+  flex-grow: 2;
+}
+
+.middle {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: Verdana;
+  color: MediumAquamarine;
+  flex-grow: 2;
+}
+
+.link {
+  text-align: right;
+}
+
+.top {
+  display: inline-flex;
+}
