@@ -16,8 +16,9 @@
 .navigation {
   display: inline-flex;
   justify-content: flex-end;
-  width: 90%;
+  width: 94%;
   align-items: center;
+  margin-left: 35px;
 }
 
 body {
