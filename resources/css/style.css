@@ -1,12 +1,13 @@
 .top {
   display: inline-flex;
-  align-content: center;
+  align-items: center;
   border-bottom: 1px solid black;
   width: 100%;
   min-width: 1000px;
   font-size: 14px;
   font-weight: bold;
   font-style: Verdana;
+  justify-content: flex-start;
 }
 
 .middle {
