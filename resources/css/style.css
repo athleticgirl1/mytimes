@@ -1,6 +1,6 @@
 .top {
   display: inline-flex;
-  align-items: center;
+  align-content: center;
   border-bottom: 1px solid black;
   width: 100%;
   min-width: 1000px;
