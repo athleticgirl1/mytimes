@@ -3,19 +3,18 @@
   align-items: center;
   justify-content: flex-start;
   width: 79%;
-  border: 1px solid black;
   margin-bottom: 5px;
 }
 
 .important {
   border-bottom: 1px solid black;
   width: 100%
-  font-size: 14px;
-  font-weight: bold;
   font-style: Verdana;
 }
 .header {
   color: MediumAquamarine;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .navigation {
@@ -25,13 +24,12 @@
   width: 19%;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .content {
   display: inline-flex;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
 
 .bigcontent {
@@ -40,15 +38,15 @@
 }
 
 .large {
-  display: inline-flex;
-  flex-direction: column;
+  display: inline;
   margin-top: 20px;
   width: 630px;
+  flex-wrap: wrap;
+  text-align: horizontal;
 }
 
 .medium {
   display: inline-flex;
-  border: 1px solid black;
   flex-direction: column;
   margin-left: 20px;
   margin-top: 20px;
@@ -58,7 +56,6 @@
 
 .small {
   display: inline-flex;
-  border: 1px solid border;
   flex-direction: column;
   width: 240px;
   margin-right: 20px;
@@ -80,5 +77,53 @@ body {
 }
 
 .one {
-  border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#main {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  height: 300px;
+  justify-content: flex-start;
+}
+
+#second {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  justify-content: center;
+  }
+
+#third {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+#fourth {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+  justify-content: center;
 }
