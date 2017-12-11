@@ -2,7 +2,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  width: 75%;
+  width: 79%;
   border: 1px solid black;
   margin-bottom: 5px;
 }
@@ -22,7 +22,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  width: 15%;
+  width: 19%;
   padding-left: 10px;
   padding-right: 10px;
 }
