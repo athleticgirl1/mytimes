@@ -1,24 +1,68 @@
 .top {
   display: inline-flex;
   align-items: center;
+  justify-content: flex-start;
+  width: 93%;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.important {
   border-bottom: 1px solid black;
-  width: 100%;
-  min-width: 1000px;
+  width: 100%
   font-size: 14px;
   font-weight: bold;
   font-style: Verdana;
-  justify-content: flex-start;
 }
-
-.middle {
+.header {
   color: MediumAquamarine;
 }
 
 .navigation {
   display: inline-flex;
-  justify-content: flex-end;
-  width: 94%;
   align-items: center;
+  justify-content: flex-start;
+  width: 6%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content {
+  display: inline-flex;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.bigcontent {
+  display: flex;
+  justify-content: center;
+}
+
+.large {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 630px;
+}
+
+.medium {
+  display: inline-flex;
+  border: 1px solid black;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 300px;
+}
+
+.small {
+  display: inline-flex;
+  border: 1px solid border;
+  flex-direction: column;
+  width: 240px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 body {
@@ -33,4 +77,28 @@ body {
 
 .logo {
   margin: 20px;
+}
+
+.one {
+  border: 1px solid black;
+}
+
+.two {
+  border: 1px solid black;
+}
+
+.three {
+  border: 1px solid black;
+}
+
+.four {
+  border: 1px solid black;
+}
+
+.five {
+  border: 1px solid black;
+}
+
+.six {
+  border: 1px solid black;
 }
