@@ -2,7 +2,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
-  width: 93%;
+  width: 80%;
   border: 1px solid black;
   margin-bottom: 5px;
 }
@@ -80,25 +80,5 @@ body {
 }
 
 .one {
-  border: 1px solid black;
-}
-
-.two {
-  border: 1px solid black;
-}
-
-.three {
-  border: 1px solid black;
-}
-
-.four {
-  border: 1px solid black;
-}
-
-.five {
-  border: 1px solid black;
-}
-
-.six {
   border: 1px solid black;
 }
