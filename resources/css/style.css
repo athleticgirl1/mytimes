@@ -35,6 +35,7 @@
 .bigcontent {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .large {
@@ -136,6 +137,13 @@ body {
 .petite {
   width: 300px;
   text-align: vertical;
+  margin-right: 15px;
+}
+
+.petitetwo {
+  width: 300px;
+  text-align: vertical;
+  margin-left: 15px;
 }
 
 #fifth {
@@ -198,4 +206,43 @@ body {
   justify-content: center;
   align-content: center;
   border-bottom: 1px solid black;
+}
+
+#footer {
+display: block;
+}
+
+.ape {
+  color: black;
+  font-family: Verdana;
+  font-size: 12px;
+  padding: 10px;
+}
+
+.bat {
+ font-family: Georgia;
+ font-size: 16px;
+ font-weight: bold;
+ color: white;
+ padding-left: 10px;
+ padding-right: 10px;
+ display: inline;
+}
+
+.cat {
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+#bigfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: MediumAquamarine;
+  width: 100%;
+  height: 300px;
+}
+
+#smallfooter {
+  text-align: center;
 }
