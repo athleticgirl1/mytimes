@@ -9,9 +9,10 @@
 .important {
   border-bottom: 1px solid black;
   width: 100%;
-  position: fixed;
   background-color: white;
+  position: fixed;
 }
+
 .header {
   color: MediumAquamarine;
   font-size: 14px;
@@ -37,6 +38,7 @@
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+  padding-top: 125px;
 }
 
 .large {
