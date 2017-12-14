@@ -9,7 +9,6 @@
 .important {
   border-bottom: 1px solid black;
   width: 100%
-  font-style: Verdana;
 }
 .header {
   color: MediumAquamarine;
@@ -245,4 +244,10 @@ body {
 
 #smallfooter {
   text-align: center;
+}
+
+.dog {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
